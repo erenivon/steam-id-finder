@@ -18,7 +18,7 @@ def check_steam_id(number):
     else:
         return False  # Kullanılıyor
 
-def find_unused_steam_id(start=12286, end=99999):
+def find_unused_steam_id(start=1, end=99999):
     with open("C:/Users/pc_user/Desktop/filename.txt", "w") as file: # TXT Dosya yolunu girin
         for number in range(start, end + 1):
             formatted_number = f"{number:04d}"  # Sayıyı dört basamaklı string olarak formatla
@@ -30,4 +30,4 @@ def find_unused_steam_id(start=12286, end=99999):
         return None
 
 # Kullanılmayan bir ID bulmaya çalış
-find_unused_steam_id(12286, 99999)
+find_unused_steam_id(1, 99999)
