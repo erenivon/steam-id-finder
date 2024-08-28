@@ -1,4 +1,4 @@
-# 🇹🇷 Steam Kullanılmayan Nadir ID Bulma Aracı
+# 🇹🇷 Steam Eşsiz / Nadir ID Bulma Aracı
 ## Kurulum için;
 - Python yüklü olduğundan emin olun.
 - İndirdiğiniz zip dosyasını klasöre ayıklayın ve ardından terminal'i açın
